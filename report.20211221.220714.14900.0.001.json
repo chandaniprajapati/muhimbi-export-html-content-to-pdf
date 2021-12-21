@@ -1,0 +1,475 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20211221.220714.14900.0.001.json",
+    "dumpEventTime": "2021-12-21T22:07:14Z",
+    "dumpEventTimeStamp": "1640104634849",
+    "processId": 14900,
+    "cwd": "D:\\muhimbi-export-html-content-to-pdf",
+    "commandLine": [
+      "node",
+      "C:\\Users\\ChandaniPrajapati\\AppData\\Roaming\\npm\\\\node_modules\\gulp\\bin\\gulp.js",
+      "serve"
+    ],
+    "nodejsVersion": "v12.14.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19043",
+    "osVersion": "Windows 10 Enterprise",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 10940140,
+        "nice": 0,
+        "sys": 19286281,
+        "idle": 465713156,
+        "irq": 6884703
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 9840500,
+        "nice": 0,
+        "sys": 6891546,
+        "idle": 479207421,
+        "irq": 1014312
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 30541671,
+        "nice": 0,
+        "sys": 8734265,
+        "idle": 456663515,
+        "irq": 423109
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 21043765,
+        "nice": 0,
+        "sys": 7824781,
+        "idle": 467070921,
+        "irq": 369812
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 17400437,
+        "nice": 0,
+        "sys": 5867984,
+        "idle": 472671046,
+        "irq": 242671
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 14765328,
+        "nice": 0,
+        "sys": 4650812,
+        "idle": 476523328,
+        "irq": 185296
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 12172109,
+        "nice": 0,
+        "sys": 4985515,
+        "idle": 478781843,
+        "irq": 200703
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 11153875,
+        "nice": 0,
+        "sys": 4422765,
+        "idle": 480362781,
+        "irq": 166000
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 9441312,
+        "nice": 0,
+        "sys": 4163656,
+        "idle": 482334406,
+        "irq": 159437
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 9079312,
+        "nice": 0,
+        "sys": 3673156,
+        "idle": 483186953,
+        "irq": 149765
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 8615625,
+        "nice": 0,
+        "sys": 3768046,
+        "idle": 483555781,
+        "irq": 146718
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 8635671,
+        "nice": 0,
+        "sys": 3309593,
+        "idle": 483994156,
+        "irq": 136250
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 7523859,
+        "nice": 0,
+        "sys": 4371156,
+        "idle": 484044390,
+        "irq": 211046
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 6731500,
+        "nice": 0,
+        "sys": 3940828,
+        "idle": 485267109,
+        "irq": 215750
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 8308468,
+        "nice": 0,
+        "sys": 4648640,
+        "idle": 482982328,
+        "irq": 123687
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz",
+        "speed": 2496,
+        "user": 8727718,
+        "nice": 0,
+        "sys": 3938546,
+        "idle": 483273171,
+        "irq": 109906
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "70:a6:cc:f9:f0:b5",
+        "address": "fe80::4490:40e8:1337:ce4e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 4
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "70:a6:cc:f9:f0:b5",
+        "address": "192.168.0.107",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "RC-IND-1BYDRG3"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff79e7e1759",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff79e7e5b7c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff79e7e4b38",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff79e8d433b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff79f0d8c5e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff79f0c0ca1",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff79ef8e56c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff79ef99910",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff79ef96444",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff79ef8bcd3",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff79ef8a4a4",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff79efab775",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff79ed17a49",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+4057"
+    },
+    {
+      "pc": "0x00007ff79f50463d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x00000309ec15ba95",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2183561216,
+    "totalCommittedMemory": 2183561216,
+    "usedMemory": 2110727144,
+    "availableMemory": 63170696,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 6039976,
+        "available": 10719832
+      },
+      "old_space": {
+        "memorySize": 2101194752,
+        "committedMemory": 2101194752,
+        "capacity": 2079254816,
+        "used": 2058047416,
+        "available": 21207400
+      },
+      "code_space": {
+        "memorySize": 1736704,
+        "committedMemory": 1736704,
+        "capacity": 1356448,
+        "used": 1356448,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 3674112,
+        "committedMemory": 3674112,
+        "capacity": 2239200,
+        "used": 2239200,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 42516480,
+        "committedMemory": 42516480,
+        "capacity": 42461408,
+        "used": 42461408,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550400,
+        "used": 550400,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 144.265,
+    "kernelCpuSeconds": 65.515,
+    "cpuConsumptionPercent": 313.104,
+    "maxRss": 2764439552,
+    "pageFaults": {
+      "IORequired": 1021119,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 5122,
+      "writes": 11
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\",
+    "=D:": "D:\\muhimbi-export-html-content-to-pdf",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\ChandaniPrajapati\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "RC-IND-1BYDRG3",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\ChandaniPrajapati\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\ChandaniPrajapati",
+    "INIT_CWD": "D:\\muhimbi-export-html-content-to-pdf",
+    "LOCALAPPDATA": "C:\\Users\\ChandaniPrajapati\\AppData\\Local",
+    "LOGONSERVER": "\\\\RC-IND-1BYDRG3",
+    "NUMBER_OF_PROCESSORS": "16",
+    "OneDrive": "C:\\Users\\ChandaniPrajapati\\OneDrive - Rapid Circle",
+    "OneDriveCommercial": "C:\\Users\\ChandaniPrajapati\\OneDrive - Rapid Circle",
+    "OS": "Windows_NT",
+    "Path": "C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Users\\ChandaniPrajapati\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ChandaniPrajapati\\AppData\\Roaming\\npm;C:\\Users\\ChandaniPrajapati\\AppData\\Local\\Programs\\Git\\cmd",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8d01",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "%ProgramFiles%\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft Azure Information Protection\\Powershell",
+    "PUBLIC": "C:\\Users\\Public",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\CHANDA~1\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\CHANDA~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "AzureAD",
+    "USERDOMAIN_ROAMINGPROFILE": "AzureAD",
+    "USERNAME": "ChandaniPrajapati",
+    "USERPROFILE": "C:\\Users\\ChandaniPrajapati",
+    "windir": "C:\\Windows",
+    "ZES_ENABLE_SYSMAN": "1",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\bcryptprimitives.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll",
+    "\\\\?\\D:\\muhimbi-export-html-content-to-pdf\\node_modules\\node-sass\\vendor\\win32-x64-72\\binding.node",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\System32\\winrnr.dll"
+  ]
+}

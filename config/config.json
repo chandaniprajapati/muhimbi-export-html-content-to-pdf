@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "muhimbi-export-html-content-to-pdf-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/muhimbiExportHtmlContentToPdf/MuhimbiExportHtmlContentToPdfWebPart.js",
+          "manifest": "./src/webparts/muhimbiExportHtmlContentToPdf/MuhimbiExportHtmlContentToPdfWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MuhimbiExportHtmlContentToPdfWebPartStrings": "lib/webparts/muhimbiExportHtmlContentToPdf/loc/{locale}.js"
+  }
+}

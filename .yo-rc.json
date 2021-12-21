@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.13.1",
+    "libraryName": "muhimbi-export-html-content-to-pdf",
+    "libraryId": "1eb3e2be-0cd1-4a88-bcda-41dda46284c9",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

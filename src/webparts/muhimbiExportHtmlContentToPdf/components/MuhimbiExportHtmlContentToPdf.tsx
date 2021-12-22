@@ -18,7 +18,7 @@ export default class MuhimbiExportHtmlContentToPdf extends React.Component<IMuhi
                             <th style="border: 1px solid black;border-collapse: collapse;padding: 5px;">Age</th>
                           </tr>
                           <tr>
-                            <td style="border: 1px solid black;border-collapse: collapse;padding: 5px;">Jill</td>
+                            <td style="border: 1px solid black;border-collapse: collapse;padding: 5px;">John</td>
                             <td style="border: 1px solid black;border-collapse: collapse;padding: 5px;">Smith</td>
                             <td style="border: 1px solid black;border-collapse: collapse;padding: 5px;">50</td>
                           </tr>

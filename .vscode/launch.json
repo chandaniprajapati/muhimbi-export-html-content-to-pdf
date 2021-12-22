@@ -9,7 +9,7 @@
       "name": "Hosted workbench",
       "type": "chrome",
       "request": "launch",
-      "url": "https://rapidcircle1com.sharepoint.com/_layouts/15/workbench.aspx",
+      "url": "https://localhost:421/temp/workbench.html",
       "webRoot": "${workspaceRoot}",
       "sourceMaps": true,
       "sourceMapPathOverrides": {
